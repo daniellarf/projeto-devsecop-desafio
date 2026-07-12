@@ -1,5 +1,4 @@
-const API_KEY = process.env.API_KEY;
-const DB_PASSWORD = "admin@prod#2024";
+// API_KEY removida: nenhum segredo deve ficar exposto no frontend
 
 // Busca tarefas do "banco de dados"
 fetch('db.json')
