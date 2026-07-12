@@ -1,4 +1,4 @@
-const API_KEY = "REMOVED_SECRET";
+const API_KEY = process.env.API_KEY;
 const DB_PASSWORD = "admin@prod#2024";
 
 // Busca tarefas do "banco de dados"
