@@ -38,9 +38,9 @@ jobs:
       # ❌ PASSO 4: IMPLEMENTE AQUI — SAST com Semgrep
       # Dica: instale com "pip install semgrep" e rode "semgrep scan --config auto --error src/"
       - name: 🔍 SAST - Semgrep
-         run: |
-           python3 -m pip install semgrep
-           semgrep scan --config auto --error src/
+        run: |
+          python3 -m pip install semgrep
+          semgrep scan --config auto --error src/
         # SUBSTITUA pelo comando real: pip install semgrep && semgrep scan --config auto --error src/
 
       # ❌ PASSO 5: IMPLEMENTE AQUI — SCA com Grype
